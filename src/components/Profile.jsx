@@ -1,8 +1,9 @@
 import React from "react";
+import s from "./Profile.module.css";
 
 
 const Profile = () => {
-    return <div className='content'>
+    return <div className={s.content}>
     <div>
       <img src='https://media.radissonhotels.net/image/destination-pages/localattraction/16256-118729-f63243131_3xl.jpg?impolicy=HighCarrousel'></img>
     </div>

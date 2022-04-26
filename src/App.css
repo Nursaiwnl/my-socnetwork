@@ -12,16 +12,3 @@
   grid-gap: 10px;
 }
 
-.header{
-  grid-area: h;
-  background-color: aquamarine;
-}
-.header img{
-  width: 30px;
-}
-.nav{
-  grid-area: n;
-}
-.content{
-  grid-area: c;
-}

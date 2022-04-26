@@ -1,0 +1,11 @@
+
+.nav{
+  grid-area: n;
+  background-color: rgb(72, 72, 182);
+}
+.item{
+  color:azure;
+}
+.item.active{
+  color: gold;
+}
