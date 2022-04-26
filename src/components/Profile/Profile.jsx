@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Profile.module.css";
-
+import MyPosts from "./MyPosts/MyPosts.jsx";
+import Post from "./MyPosts/Post/Post";
 
 const Profile = () => {
     return <div className={s.content}>
@@ -10,20 +11,9 @@ const Profile = () => {
     <div>
       ava+descrip
     </div>
-    <div>
-      Myposts
-      <div>
-        New post
-      </div>
-    </div>
-    <div>
-      <div>
-        1post
-      </div>
-      <div>
-        2post
-      </div>
-    </div>
+    <MyPosts />
+    <Post message="Hey it's my 1'st post" l="15"/>
+    <Post message="The weather is fine today!" l="20"/>
   </div>
 } 
 
