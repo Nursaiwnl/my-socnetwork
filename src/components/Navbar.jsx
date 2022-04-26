@@ -18,6 +18,9 @@ const Navbar = () => {
     <div>
       <a>Settings</a>
     </div>
+    <div>
+      chto to dobavil
+    </div>
   </nav>
 } 
 
